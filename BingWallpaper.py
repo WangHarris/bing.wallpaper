@@ -26,3 +26,5 @@ if not os.path.exists(save_path):
 
 with open(save_path+wallpaper_name, "wb") as f:
     f.write(download(wallpaper_src))
+
+os.system('gsettings set org.gnome.desktop.background picture-uri "file:{file_full_name}"'.format(file_full_name=save_path+wallpaper_name))
