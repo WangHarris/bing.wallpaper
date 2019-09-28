@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name[zh_CN]=必应壁纸
+Comment[zh_CN]=每天换壁纸，每天好心情。
+Exec=python3 /home/harris/workspace/BingWallpaper/BingWallpaper.py
+Icon=/home/harris/workspace/BingWallpaper/bing.ico
+X-GNOME-Autostart-enabled=true
+Type=Application
+Terminal=false
+Categories=Network;
+
