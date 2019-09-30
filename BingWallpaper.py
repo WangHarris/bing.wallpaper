@@ -6,7 +6,7 @@ import os
 
 http = urllib3.PoolManager()
 url = "https://cn.bing.com/"
-save_path = "/home/harris/Pictures/wallpaper/"
+save_path = "/home/harris/Pictures/MyImageHosting/img/wallpaper/"
 wallpaper_name = datetime.date.today().strftime('%Y-%m-%d') + ".jpeg"
 
 
